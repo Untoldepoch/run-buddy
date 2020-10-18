@@ -75,7 +75,7 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* Hero Styles Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -83,7 +83,6 @@ section {
     background-position: center;
     position: relative;
   }
-  /* Hero Style End */
 
   .hero-form {
       border: 3px solid #024e76;
@@ -113,3 +112,16 @@ section {
       width: 100%;
       margin-bottom: 15px;
   }
+  
+  .hero-form label {
+      margin: 0 5px;
+  }
+
+  .hero-form button {
+      color: #fce138;
+      background-color: #024e76;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+/* Hero Styles End */  
